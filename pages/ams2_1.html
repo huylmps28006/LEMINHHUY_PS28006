@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .container{
+            max-width: 1200px;
+            margin: auto;
+            position: relative;
+            height: 100vh;
+            background-color: rgb(127, 221, 255);
+        }
+        form{
+            width: 450px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            position: absolute;
+            padding: 8px;
+
+        }
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+        input{
+            outline: none;
+            border: 1px solid #ccc;
+            font-size: 22px;
+            margin-bottom: 20px;
+            padding: 8px 16px;
+        }
+        .btn{
+            display: block;
+            width: 100px;
+            margin-top: 20px;
+            cursor: pointer;
+            background-color: lightcoral;
+            text-align: center;
+        }
+        h1{
+            text-align: center;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <h1>Đăng nhập</h1>
+            <br>
+            <br>
+            <label for="">User name:</label>
+            <input type="text">
+            <label for="">Password:</label>
+            <label for=""></label>
+            <input type="password"><br>
+            <hr>
+            <input type="buttom" value="login" class="btn">
+        </form>
+    </div>
+</body>
+</html>
